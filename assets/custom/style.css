@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+html,
+body {
+    background-color: black;
+    width: 100%;
+    overflow-y: visible;
+    overflow-x: hidden;
+    user-select: none;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+#pageone{
+    background-image: url(/assets/image/main-bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pagetwo{
+    background-image: url(/assets/image/the-games-bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pagethree{
+    background-image: url(/assets/image/features.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pagefour{
+    background-image: url(/assets/image/requirements.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pagefive{
+    background-image: url(/assets/image/top-score-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#navigasibar {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    /* font-size: 12px; */
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.stretched-text-title {
+    margin:0;
+    letter-spacing: 6px;
+    display: inline-block;
+    font-size: 65px;
+    transform-origin: 0 0;
+}
+
+.stretched-text-child {
+    letter-spacing: 4px;
+    transform-origin: 0 0;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vertical-bottom-story {
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
