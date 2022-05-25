@@ -19,6 +19,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 #pagetwo{
@@ -27,6 +28,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 #pagethree{
@@ -35,6 +37,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 #pagefour{
@@ -43,14 +46,17 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 #pagefive{
     background-image: url(/assets/image/top-score-bg.png);
+    background-color: black;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 #navigasibar {
@@ -82,6 +88,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* overflow-block: ; */
 }
 
 .vertical-bottom-story {
