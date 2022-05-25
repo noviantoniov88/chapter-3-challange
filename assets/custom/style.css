@@ -98,3 +98,44 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+ul {
+    max-width: 400px;
+    margin: 0 auto;
+    list-style-type: none;
+    counter-reset: steps;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  ul li {
+    padding: 0 0 20px 50px;
+    position: relative;
+    margin: 0;
+  }
+  
+  ul li:after {
+    position: absolute;
+    background: url('/assets/image/ellipse-outline.svg') no-repeat left top !important;
+    top: 0px;
+    left: 5px;
+    content: url(/assets/image/ellipse-outline.svg);
+    text-align: center;
+    line-height: 24px;
+    background: #fff;
+  }
+
+  ul li:before {
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    content: "";
+    height: 100%;
+    width: 0;
+    border-left: 2px solid white;
+  }
+
+  ul li:last-of-type:before {
+    border: none;
+  }
