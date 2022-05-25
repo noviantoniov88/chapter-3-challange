@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700&display=swap');
 
-
 html,
 body {
     background-color: black;
@@ -53,6 +52,26 @@ html {
     background-image: url(/assets/image/top-score-bg.png);
     background-color: black;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#pagesix{
+    background-image: url(/assets/image/newsletter.png);
+    background-color: black;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#pagefooter{
+    background-image: url(/assets/image/newsletter.png);
+    background-color: black;
+    width: 10%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
