@@ -100,7 +100,7 @@ html {
 }
 
 
-ul {
+ ul.lines {
     max-width: 400px;
     margin: 0 auto;
     list-style-type: none;
@@ -109,13 +109,13 @@ ul {
     font-family: sans-serif;
   }
 
-  ul li {
+   ul li.lines {
     padding: 0 0 20px 50px;
     position: relative;
     margin: 0;
   }
   
-  ul li:after {
+  ul li.lines:after {
     position: absolute;
     background: url('/assets/image/ellipse-outline.svg') no-repeat left top !important;
     top: 0px;
@@ -126,7 +126,7 @@ ul {
     background: #fff;
   }
 
-  ul li:before {
+  ul li.lines:before {
     position: absolute;
     left: 13px;
     top: 15px;
@@ -136,6 +136,6 @@ ul {
     border-left: 2px solid white;
   }
 
-  ul li:last-of-type:before {
+  ul li.lines:last-of-type:before {
     border: none;
   }
